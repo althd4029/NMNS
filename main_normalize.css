@@ -1,0 +1,247 @@
+
+body{
+    background-color :rgb(250, 250, 250);
+}
+
+.box {
+    position :relative;
+    left :50%;
+    transform :translate(-50%,  0%);
+
+    width :980px;
+}
+
+
+.container{
+    display :flex;
+    flex-direction :column;
+
+    margin-bottom :2em;
+}
+
+.header{
+    display :flex;
+    flex-direction :row;
+
+    padding-top :2em;
+
+    flex :1;
+
+    background-color :rgb(42,58,91);
+}
+    .header_row1{   /*로고*/
+        flex :1;
+    }
+        .logo{
+            margin-left :20px;
+            text-decoration: none;
+            color :white;
+            font-size :3.5rem;
+        }
+    .header_row2{   /*로그인, 장바구니, DM*/
+        flex :1;
+
+        text-align :right;
+        align-items :center;
+
+        margin-top :22px;
+    }
+    .header_row2>button{
+        margin-right :10px;
+
+        border-radius :9px;
+        border :1px ridge rgb(243, 203, 135);
+
+        color :rgb(243, 203, 135);
+        background-color :transparent;
+    }
+        #login_button{
+            width :80px;
+            height :35px;
+
+            font-size :1.1em;
+        }
+        #basket_button{
+            width :50px;
+            height :50px;
+            font-size :25px;
+        }
+        #DM_button{
+            width :50px;
+            height :50px;
+            font-size :25px;
+        }
+
+
+
+
+.category{
+    flex :1;
+    text-align: center;
+
+    /*카테고리 글씨 색*/
+    color :rgb(150, 108, 35);
+    font-weight : bolder;
+    font-size : 1.2em;
+
+    /*카테고리 밑 줄 색*/
+    border-bottom :1px solid rgb(65, 62, 80);
+}
+#categorycolor{
+    padding-top :20px;
+    padding-bottom :20px;
+}
+    #category_row{
+        display :inline-block;
+
+        cursor :pointer;
+
+        width :130px;
+        padding-top :20px;
+        padding-bottom :20px;
+
+    }
+    /*카테고리 마우스 가져다댔을 때*/
+    #category_row:hover{
+        color :rgb(87, 31, 6);
+        background-color :rgb(218, 209, 192);
+    }
+
+
+#categorydrop{
+    flex :1;
+}
+.categorydrop{
+    font-size :1.05em;
+    text-align: center; 
+}
+#categorydropcolor{
+    /*카테고리 드랍 배경*/
+    background-color :rgb(238, 237, 235);
+    padding-top :0;
+    padding-bottom :245px;
+    padding-left :25px;
+    padding-right :25px;
+
+    /*카테고리 드랍 아래 줄*/
+    border-bottom :1px solid rgb(189, 180, 162);
+
+}
+    #categorydrop_row{
+        display :inline-block;
+
+        cursor :pointer;
+
+        width :130px;
+        vertical-align :top;
+
+        padding-top :10px;
+        padding-bottom :10px;
+    }
+    #categorydrop_row>a{
+        display :block;
+
+        padding-top :10px;
+        padding-bottom :10px;
+
+        text-decoration:none;
+
+        /*카테고리 드랍 글씨색*/
+        color :rgb(38, 51, 82);
+
+    }
+    /*카테고리에 마우스 가져다댔을 때*/
+    #categorydrop_row>a:hover{
+        font-weight :bold;
+        background-color :rgb(221, 218, 212);
+    }
+
+.tailer{
+    flex :50px;
+
+    text-align :right;
+    vertical-align: baseline;
+
+    margin :10px;
+
+}
+
+button{
+    cursor :pointer;
+}
+
+/*========================태그========================*/
+
+.tag a{  /*tag클래스 하위에 있는 a요소에 적용*/
+    padding :5px;
+    padding-left :10px;
+    padding-right :10px;
+
+    font-size :1.1em;
+
+    border-radius: 6px;
+    
+    background-color :rgb(223, 223, 223);
+}
+
+.tag a:hover{  /*tag클래스 하위에 있는 a요소에 적용*/
+    color :rgb(223, 223, 223);
+    background-color :rgb(38, 51, 82);
+
+    cursor :pointer;
+}
+
+.tag{
+    display :flex;
+    flex-direction :column;
+
+    padding :10px;
+
+    border-radius :9px;
+
+    background-color :rgb(240, 240, 240);
+}
+    #tag_line{
+        margin-top :0.5em;
+        margin-bottom :0.5em;
+
+        flex :30px;
+        align-items: center;
+
+    }
+        /*태그 공통*/
+        #tag_name{
+            flex :0.15;
+
+            padding-left :15px;
+
+            font-size :1.2rem;
+        }
+        #tag_value{
+            flex :1;
+        }
+
+#selected_tag{
+    border-radius :9px;
+
+    padding :5px;
+
+    margin-top :10px;
+
+    background-color :rgb(223, 223, 223);
+}
+
+#selected_tag a{
+    display :inline-block;
+    font-weight :bold;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin : 5px;
+
+    border-radius :9px;
+
+    background-color :rgb(240, 240, 240);
+}

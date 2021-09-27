@@ -1,0 +1,52 @@
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+/*font_name*/
+#font_Ephesis{
+    font-family: 'Ephesis', cursive;
+}
+
+/*
+#font_darker{
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Grey Qo', cursive;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+*/
+
+/*font color*/
+#font_gold{
+    color :goldenrod;
+}
+#font_silver{
+    color :silver;
+}
+#font_red{
+    color :red;
+}
+#font_yellow{
+    color :yellow;
+}
+#font_green{
+    color :green;
+}
+#font_blue{
+    color :blue;
+}
+#font_black{
+    color :black;
+}
+#font_pink{
+    color :rgb(255, 145, 163);
+}
+
+
+
+
+
+
+

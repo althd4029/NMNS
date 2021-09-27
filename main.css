@@ -1,0 +1,59 @@
+#menu{
+    flex :300px;
+    padding :10px;
+}
+
+
+
+.menu1{
+    display :flex;
+    flex-direction :row;
+}
+    #menu_row{
+        display :flex;
+        flex :1;
+        margin :10px;
+
+        background-color :#f0e3d9;
+    }
+    /*ㅅㅂ 모르겠음~~~~~~~~~~~~~`*/
+    #goods_container{
+        display :flex;
+        flex-direction :column;
+        flex :1;
+    }
+        /*상품*/
+        #main_goods{
+            display :flex;
+            flex-direction :row;
+            flex :1;
+        }
+            #main_goods_img{
+                flex :0.3;
+                background-color :red;
+            }
+            #main_goods_detail{
+                flex :1;
+                background-color :blue;
+            }
+
+
+
+
+    .menu1_row2{   /*아직 안정함*/
+        flex :1;
+    }
+       
+
+
+
+.menu2{
+    display :flex;
+    flex-direction :row;
+}
+    .menu2_row1{   /*인기순위*/
+        flex :1;
+    }
+    .menu2_row2{   /*아직 안정함*/
+        flex :1;
+    }
