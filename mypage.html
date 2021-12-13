@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>내만내산-주문제작 악세서리, 그림, 가구</title>
+
+        <link rel = "stylesheet" href = "font.css"/>
+        <link rel = "stylesheet" href = "main_normalize.css"/>
+        <link rel = "stylesheet" href = "main.css"/>
+        <link rel = "stylesheet" href = "./mypage.css"/>
+        
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a541f05f20.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!--가로 제한하는 전체 틀-->
+        <div class = "box">
+
+            <!--container-->
+            <div class = "container">
+
+                <!--header : 로고 / 로그인, 장바구니, DM-->
+                <div class = "header">
+
+                    <!--row1 : 로고-->
+                    <div class = "header_row1">
+                        <a class = "logo" id = "font_Ephesis" href = "main.html">NMNS</a>
+                    </div>
+
+                    <!--row2 : 로그인, 장바구니, DM-->
+                    <div class= "header_row2">
+                        <button id = "login_button">로그인</button>
+                        <button id = "basket_button"><i class="fas fa-shopping-cart" style = "margin-right :2px; margin-top :2px;"></i></button>
+                        <button id = "DM_button"><i class="fas fa-user"></i></button>
+                    </div>
+                </div>
+
+
+                <!--category : 액세서리 / 그림 / 영상 / 가구 / 컴퓨터 / 번역-->
+                <div class = "category">
+                    <span id = "categorycolor">
+                        <div id = "category_row1" class = "category_row">
+                            액세서리  
+                        </div>
+                        <div id = "category_row2" class = "category_row">
+                            그림
+                        </div>
+                        <div id = "category_row3" class = "category_row">
+                            영상
+                        </div>
+                        <div id = "category_row4" class = "category_row">
+                            가구
+                        </div>
+                        <div id = "category_row5" class = "category_row">
+                            컴퓨터
+                        </div>
+                        <div id = "category_row6" class = "category_row">
+                            번역
+                        </div> 
+                    </span>
+                </div>
+
+
+                <!--category_drop : category의 세부사항-->
+                <div class = "categorydrop" id = "categorydrop">
+                    <span id = "categorydropcolor">
+                        <div id = "categorydrop_row1" class = "categorydrop_row">
+                            <!--자바스크립트로 통합해야함.-->
+                            <a id = "categorydrop__earing1">귀걸이</a>
+                            <a >목걸이</a>
+                            <a>반지/팔찌</a>
+                            <a>폰케이스/그립톡</a>
+                            <a>키링</a>
+                            <a id = "categorydrop__earing6">기타</a>
+                        </div>
+                        <div id = "categorydrop_row2" class = "categorydrop_row">
+                            <a id = "categorydrop__picture1">일러스트</a>
+                            <a>SD</a>
+                            <a>LD</a>
+                            <a>만화</a>
+                        </div>
+                        <div id = "categorydrop_row3" class = "categorydrop_row">
+                            <a id = "categorydrop__video1">광고</a>
+                            <a>소개영상</a>
+                        </div>
+                        <div id = "categorydrop_row4" class = "categorydrop_row">
+                            <a id = "categorydrop__furniture1">무드등</a>
+                            <a>액자</a>
+                            <a>썬/드림캐쳐</a>
+                        </div>
+                        <div id = "categorydrop_row5" class = "categorydrop_row">
+                            <a id = "categorydrop__computer1">웹 프로그래밍</a>
+                            <a>앱 프로그래밍</a>
+                            <a>테스팅</a>
+                            <a>사무보조</a>
+                        </div>
+                        <div id = "categorydrop_row6" class = "categorydrop_row">
+                            <a id = "categorydrop__translate1">영어</a>
+                            <a>일본어</a>
+                            <a>중국어</a>
+                        </div> 
+                    </span>
+                </div>
+
+                <br/><br/><br/>
+<!--=============================고정=============================-->
+
+                <div class = "mypage_box">
+                    <div class="mypage_container">
+                        <!--프로필, 다른정보4개-->
+                        <div class="mypage_row1"> 
+                            <div class = "profile">
+                                <div class = "profile_image">
+                                    <img src = "profile_default.jpg">
+                                </div>
+                                <div class = "profile_name">
+                                    <p>김연필</p>
+                                </div>
+                            </div>
+                            <div class = "profile_info">
+                                <div class = "profile_row1" id = "profile_rows">
+                                    <div class = "주문내역_title" id = "profile_titles">
+                                        <div class = "주문내역">주문내역</div>
+                                    </div>
+                                    <div class = "주문내역_value" id = "profile_values">
+                                        <div class ="주문내역_value값">최근 주문<br>보러가기</br></div>
+                                    </div>
+                                </div>
+                                <div class = "profile_row2" id = "profile_rows">
+                                    <div class = "배송현황_title" id = "profile_titles">
+                                        <div class = "배송현황">배송현황</div>
+                                    </div>
+                                    <div class = "배송현황_value" id = "profile_values">
+                                        <div class ="배송현황_value값">배송현황<br>보러가기</br></div>
+                                    </div>
+                                </div>
+                                <div class = "profile_row3" id = "profile_rows">
+                                    <div class = "쿠폰_title" id = "profile_titles">
+                                        <div class = "쿠폰">쿠폰</div>
+                                    </div>
+                                    <div class = "쿠폰_value" id = "profile_values">
+                                        <div class = "쿠폰_value값">쿠폰 갯수</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--내 정보, 관심리스트-->
+                        <div class="mypage_row2" id = "mypage_row2and3">
+                            <div class = "내정보_row" id = "mypage_rows">
+                                <div class = "내정보_title" id = "mypage_titles">
+                                    <span>내정보</span>
+                                </div>
+                                <div class = "내정보_value" id = "mypage_values">
+                                    <span>
+                                        <p>프로필 수정</p>
+                                        <p>등록한 상품</p>
+                                        <p>작성한 댓글</p>
+                                        <p>판매 신청</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class = "관심_row" id = "mypage_rows">
+                                <div class = "관심_title" id = "mypage_titles">
+                                    <span>관심 리스트</span>
+                                </div>
+                                <div class = "관심_value" id = "mypage_values">
+                                    <span>
+                                        <p>최근 본 제품</p>
+                                        <p>찜 목록</p>
+                                        <p>장바구니</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--설정, 고객센터-->
+                        <div class="mypage_row3" id = "mypage_row2and3">
+                            <div class = "설정_row" id = "mypage_rows">
+                                <div class = "설정_title" id = "mypage_titles">
+                                    <span>설정</span>
+                                </div>
+                                <div class = "설정_value" id = "mypage_values">
+                                    <span>
+                                        <p>화면 설정</p>
+                                        <p>알림 설정</p>
+                                        <p>로그아웃</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class = "고객센터_row" id = "mypage_rows">
+                                <div class = "고객센터_title" id = "mypage_titles">
+                                    <span>고객센터</span>
+                                </div>
+                                <div class = "고객센터_value" id = "mypage_values">
+                                    <span>
+                                        <p>공지사항</p>
+                                        <p>업데이트 내역</p>
+                                        <p>오류 신고</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div> 
+
+<!--=============================고정=============================-->
+                <!--tailer : 공지사항, 고객센터-->
+                <div class = "tailer">
+                    <span>공지사항 · 고객센터</span>
+                </div>
+
+
+
+            </div>
+        </div>
+        <script src = "main_header_normalize.js"></script>
+        
+        <script src = "main.js"></script>
+    </body>
+</html>

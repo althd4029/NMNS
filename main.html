@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>내만내산-주문제작 악세서리, 그림, 가구</title>
+
+        <link rel = "stylesheet" href = "font.css"/>
+        <link rel = "stylesheet" href = "main_normalize.css"/>
+        <link rel = "stylesheet" href = "main.css"/>
+        
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+
+        <!--dm지워-->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dm.css">
+        <!--dm지워-->
+
+        <script src="https://kit.fontawesome.com/a541f05f20.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--dm지워-->
+        <!--dm지워-->
+        <div class="dm_container">
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            
+                        </div>
+                        <div class="chatbox__content--header">
+                            <p class="chatbox__heading--header"><i class="fas fa-comments"></i> 김연필 님</p>
+                            <p class="chatbox__description--header"></p>
+                        </div>
+                    </div>
+                    <div class="chatbox__messages">
+                        <div>
+                            <div class="messages__item messages__item--operator">
+                                안녕하세요! 링 특집 귀걸이 문의드릴 게 있어서 DM 보냅니다!
+                            </div>
+                            <div class="messages__item messages__item--visitor">
+                                네~ 어서오세요~! 어떤게 궁금하신가요?
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                주문제작 링 귀걸이들 지름 1cm정도 되는 것들을 
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                링끼리 연결해서 길게 늘어뜨리는 형태로도 제작이 가능할까요?
+                            </div>
+                            <div class="messages__item messages__item--visitor">
+                                그럼요! 다만 링을 추가할 수록 1cm링은 2,000원씩 추가금이 붙습니다!
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                넹!!! 언밸런스로 오른쪽 귀걸이에 4개, 왼쪽 귀걸이에는 6개를 하고싶습니다!
+                            </div>
+                            <div class="messages__item messages__item--visitor">
+                                그렇게 하시면 총 20,000원에 배송비까지 총 23,000원입니다!
+                                주문버튼 누르시면 배송 정보가 나오니 참고해주세요! 
+                            </div>
+                            <div class="messages__item messages__item--operator">
+                                네! 주문 넣고 오겠습니다:)!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <img src="" alt="">
+                        <button id = "plus_btn">+</button>
+                        <input id = "input_msg" type="text" placeholder="메세지를 입력하세요.">
+                        <button id = "send_btn">보내기</button>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <button><i class="fas fa-comments"></i></button>
+                </div>
+            </div>
+        </div>
+        <!--dm지워-->
+        <!--dm지워-->
+
+        <!--가로 제한하는 전체 틀-->
+        <div class = "box">
+
+            <!--container-->
+            <div class = "container">
+
+                <!--header : 로고 / 로그인, 장바구니, DM-->
+                <div class = "header">
+
+                    <!--row1 : 로고-->
+                    <div class = "header_row1">
+                        <a class = "logo" id = "font_Ephesis" href = "main.html">NMNS</a>
+                    </div>
+
+                    <div class = "header_row1_2">
+                        <span id = "poorStory"><i class="fas fa-thermometer-half"></i> : 15.8&deg;
+                            <i class="fab fa-cloudversify"></i> : 좋음</span>
+                    </div>
+
+                    <!--row2 : 로그인, 장바구니, DM-->
+                    <div class= "header_row2">
+                        <button id = "login_button">로그인</button>
+                        <button id = "basket_button"><i class="fas fa-shopping-cart" style = "margin-right :2px; margin-top :2px;"></i></button>
+                        <button id = "DM_button"><i class="fas fa-user"></i></button>
+                    </div>
+                </div>
+
+
+                <!--category : 액세서리 / 그림 / 영상 / 가구 / 컴퓨터 / 번역-->
+                <div class = "category">
+                    <span id = "categorycolor">
+                        <div id = "category_row1" class = "category_row">
+                            액세서리  
+                        </div>
+                        <div id = "category_row2" class = "category_row">
+                            그림
+                        </div>
+                        <div id = "category_row3" class = "category_row">
+                            영상
+                        </div>
+                        <div id = "category_row4" class = "category_row">
+                            가구
+                        </div>
+                        <div id = "category_row5" class = "category_row">
+                            컴퓨터
+                        </div>
+                        <div id = "category_row6" class = "category_row">
+                            번역
+                        </div> 
+                    </span>
+                </div>
+
+
+                <!--category_drop : category의 세부사항-->
+                <div class = "categorydrop" id = "categorydrop">
+                    <span id = "categorydropcolor">
+                        <div id = "categorydrop_row1" class = "categorydrop_row">
+                            <!--자바스크립트로 통합해야함.-->
+                            <a id = "categorydrop__earing1">귀걸이</a>
+                            <a >목걸이</a>
+                            <a>반지/팔찌</a>
+                            <a>폰케이스/그립톡</a>
+                            <a>키링</a>
+                            <a id = "categorydrop__earing6">기타</a>
+                        </div>
+                        <div id = "categorydrop_row2" class = "categorydrop_row">
+                            <a id = "categorydrop__picture1">일러스트</a>
+                            <a>SD</a>
+                            <a>LD</a>
+                            <a>만화</a>
+                        </div>
+                        <div id = "categorydrop_row3" class = "categorydrop_row">
+                            <a id = "categorydrop__video1">광고</a>
+                            <a>소개영상</a>
+                        </div>
+                        <div id = "categorydrop_row4" class = "categorydrop_row">
+                            <a id = "categorydrop__furniture1">무드등</a>
+                            <a>액자</a>
+                            <a>썬/드림캐쳐</a>
+                        </div>
+                        <div id = "categorydrop_row5" class = "categorydrop_row">
+                            <a id = "categorydrop__computer1">웹 프로그래밍</a>
+                            <a>앱 프로그래밍</a>
+                            <a>테스팅</a>
+                            <a>사무보조</a>
+                        </div>
+                        <div id = "categorydrop_row6" class = "categorydrop_row">
+                            <a id = "categorydrop__translate1">영어</a>
+                            <a>일본어</a>
+                            <a>중국어</a>
+                        </div> 
+                    </span>
+                </div>
+
+                <br/><br/><br/>
+                <!--=============================고정=============================-->
+                <div class = "menucontainer">
+                    <!--menu1 : 인기순위 / 뭐할건데-->
+                    <div id = "menu1" class = "menu">
+                        
+                        <!--row1 : _img인기순위------------------------------->
+                        
+                        <div id = "menu1_row1" class = "menu_row">
+                            <div class = "goods_container_main">
+                                    <!--1위-->
+                                <div class = "main_goods_0">BEST 상품</div>
+                                <div id = "best1" class = "main_goods">
+
+                                    <div id = "best1_img" class = "main_goods_img">
+                                        <img src = "귀걸이/귀걸이샘플5_image.jpg"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best1_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Miracleday</div>
+                                        <div class = "goods_name">[HOT!] 세모네모드롭 귀걸이</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">14,000</span>
+                                    </div>
+                                </div>
+
+
+                                    <!--2위-->
+                                <div id = "best2" class = "main_goods">
+
+                                    <div id = "best2_img" class = "main_goods_img">
+                                        <img src = "일러스트/일러스트6_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best2_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> 날개옷</div>
+                                        <div class = "goods_name">[동화] 동화 분위기 물씬! 캐릭터 일러스트</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">80,000~</span>
+                                    </div>
+                                </div>
+
+                                    <!--3위-->
+                                <div id = "best3" class = "main_goods">
+
+                                    <div id = "best3_img" class = "main_goods_img">
+                                        <img src = "영어/영어5_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best3_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> LUMINOUS</div>
+                                        <div class = "goods_name">[영화 자막] 의역, 빠른마감</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">60,000~</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--row2 : 찜한 상품--------------------------------------->
+                        <div id = "menu1_row2" class = "menu_row">
+                            <div class = "goods_container_main">
+                                <!--1위-->
+                                <div class = "main_goods_0">찜한 상품</div>
+                                <div id = "best1" class = "main_goods">
+
+                                    <div id = "best1_img" class = "main_goods_img">
+                                        <img src = "영어/영어2_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best1_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Bijou❤</div>
+                                        <div class = "goods_name">[어린이 동화/동요] 어린이 동화, 동요 번역 또는 제작</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">35,000~</span>
+                                    </div>
+                                </div>
+
+
+                                    <!--2위-->
+                                <div id = "best2" class = "main_goods">
+
+                                    <div id = "best2_img" class = "main_goods_img">
+                                        <img src = "영어/영어4_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best2_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Captivating</div>
+                                        <div class = "goods_name">[영어 기사] 영어 기사 번역</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">25,000~(1site)</span>
+                                    </div>
+                                </div>
+
+                                    <!--3위-->
+                                <div id = "best3" class = "main_goods">
+
+                                    <div id = "best3_img" class = "main_goods_img">
+                                        <img src = "귀걸이/귀걸이샘플10_image.jpg"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best3_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Diamond</div>
+                                        <div class = "goods_name">[NEW!] 반짝반짝 보석 귀걸이 모음</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">12,800</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--menu2 : 신규작품 / 할인, 쿠폰-->
+                    <div id = "menu2" class = "menu">
+                        
+                        <!--row1 : 신규작품------------------------------->
+                        <div id = "menu2_row1" class = "menu_row">
+                            <div class = "goods_container_main">
+                                <!--1위-->
+                                <div class = "main_goods_0">NEW 상품</div>
+                                <div id = "best1" class = "main_goods">
+
+                                    <div id = "best1_img" class = "main_goods_img">
+                                        <img src = "영어/영어3_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best1_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Luculent</div>
+                                        <div class = "goods_name">[영어 논문] 논문 위주 번역 (분야는 DM으로)</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">5,000(1p)</span>
+                                    </div>
+                                </div>
+
+                                <!--2위-->
+                                <div id = "best2" class = "main_goods">
+
+                                    <div id = "best2_img" class = "main_goods_img">
+                                        <img src = "일러스트/일러스트1_image.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best2_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> 밤비</div>
+                                        <div class = "goods_name">[풀채색만] 캐릭터 전신 일러스트</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">80,000~</span>
+                                    </div>
+                                </div>
+
+                                <!--3위-->
+                                <div id = "best3" class = "main_goods">
+
+                                    <div id = "best3_img" class = "main_goods_img">
+                                        <img src = "귀걸이/귀걸이샘플20_image.jpg"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best3_detail" class = "main_goods_detail">
+                                        <div class = "store_name"><i class="fas fa-home"></i> Plain</div>
+                                        <div class = "goods_name">[선착 10개 주문 마감] 링보석 위주 주문제작 귀걸이</div>
+                                        <div class = "goods_sale"></div>
+                                        <span class = "goods_price">22,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--row2 : 할인, 쿠폰-->
+                        <div id = "menu2_row2" class = "menu_row">
+                            <div class = "goods_container_main">
+                                <!--1위-->
+                                <div class = "main_goods_0">할인 쿠폰</div>
+                                <div id = "best1" class = "main_goods">
+
+                                    <div id = "best1_img" class = "main_goods_img">
+                                        <img src = "쿠폰/쿠폰1.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best1_detail" class = "main_goods_detail">
+                                        
+                                    </div>
+                                </div>
+
+                                <!--2위-->
+                                <div id = "best2" class = "main_goods">
+
+                                    <div id = "best2_img" class = "main_goods_img">
+                                        <img src = "쿠폰/쿠폰2.png"
+                                            alt = "image"/>
+                                    </div>
+                                    <div id = "best2_detail" class = "main_goods_detail">
+                                        
+                                    </div>
+                                </div>
+
+                                <!--3위-->
+                                <div id = "best3" class = "main_goods">
+
+                                    <div id = "best3_img" class = "main_goods_img">
+                                        
+                                    </div>
+                                    <div id = "best3_detail" class = "main_goods_detail">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!--=============================고정=============================-->
+                    <!--tailer : 공지사항, 고객센터-->
+                <div class = "tailer">
+                    <span>공지사항 · 고객센터</span>
+                </div>
+
+            </div>
+        </div>
+        <!--dm지워-->
+        <script src="dm.js"></script>
+        <!--dm지워-->
+        <script src = "main_header_normalize.js"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>

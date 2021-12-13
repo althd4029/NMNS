@@ -1,0 +1,223 @@
+.signup_container {
+    position :relative;
+    left :50%;
+    transform: translate(-50%, 0);
+    
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    padding-top :20px;
+    flex-direction: column;
+    display: flex;
+
+    border-radius :20px;
+    background-color :rgb(245, 245, 245);
+}
+.signup_name {
+    display: flex;
+    flex-direction :row;
+    flex: 1;    
+}
+.signup_ID {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_password {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_email {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_birthday {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_gender {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_phone_number {
+    display: flex;
+    flex-direction :row;
+    flex: 1;
+    
+}
+.signup_address {
+    display: flex;
+    flex-direction :row;
+    flex: 2;   
+}
+.signup_submit{
+    flex :1;
+    text-align :center;
+}
+
+    .signup_name_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;        
+    }
+
+    .signup_ID_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_password_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_email_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_birthday_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_gender_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_phone_number_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+    
+    }
+
+    .signup_address_q {
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+        
+    }
+
+    .signup_name_a {
+        flex: 0.75;
+        
+        font-size: 15px;
+    }
+
+    .signup_ID_a {
+        flex: 0.75;
+        
+        font-size: 15px;
+    }
+
+    .signup_password_a {
+        flex: 0.75;
+        
+        font-size: 15px;
+    }
+
+    .signup_email_a {
+        flex: 0.75;
+        
+        font-size: 15px;
+    }
+
+    .signup_birthday_a {
+        flex: 0.75;
+        
+        font-size: 15px;
+    }
+
+    .signup_gender_a {
+        flex: 0.75;
+        font-size: 15px;
+    }
+    .signup_phone_number_a {
+        flex: 0.75;
+    
+        font-size: 15px;
+    }
+
+    .signup_address_a {
+        flex: 0.25;
+        
+        font-size: 0.25px;
+    }
+
+    .signup_address_a>input {
+        margin-bottom: 10px;
+    }
+
+#signup_center {
+    text-align: center;
+    align-items: center;
+    padding-top :7px;
+}
+
+#signup_input{
+    border :1px solid rgb(42,58,91);
+    border-radius :3px;
+    height :25px;
+}
+
+#signup_input:checked{
+    background-color :blueviolet;
+}
+
+#signup_submit_btn{
+    font-size :18px;
+    font-weight :bold;
+
+    border :1px solid rgb(42,58,91);
+    border-radius :6px;
+
+    width : 200px;
+    height :50px;
+
+    background-color :rgb(240, 240, 240);
+}
+    #signup_submit_btn:active{
+        font-weight :normal;
+        color :rgb(243, 203, 135);
+        background-color :rgb(42,58,91);
+    }
+
+#signup_ID_check{
+    font-size :15px;
+    
+    margin-left :10px;
+    padding :3px;
+    padding-left :7px;
+    padding-right :7px;
+}
+    
+.signup_birthday_a>input[type="date"]{
+    border-radius :3px;
+    border :1px solid rgb(42,58,91);
+}
+
+.signup_gender_a>input[type="checkbox"]{
+    width : 20px;
+    height : 20px;
+}

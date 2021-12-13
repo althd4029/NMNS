@@ -1,0 +1,80 @@
+.menu{
+    padding :10px;
+    
+}
+
+#menu1{
+    display :flex;
+    flex:1;
+    flex-direction :row;
+}
+    .menu img{
+        width : 100%;
+        height : 200px;
+    }
+    .menu_row{
+        display :flex;
+        flex :1;
+        margin :10px;
+
+    }
+    /*ㅅㅂ 모르겠음~~~~~~~~~~~~~`*/
+    .goods_container_main{
+        position :relative;
+        flex :1;
+        display :flex;
+        flex-direction :column;
+        
+    }
+        /*상품*/
+        .menucontainer{
+            flex :1;
+            display :flex;
+            flex-direction :column;
+        }
+        .main_goods_0{
+            flex :0.1;
+            font-size :20px;
+            font-weight :bold;
+            color :rgb(42,58,91);
+            padding-bottom :10px;
+        }
+        .main_goods{
+            display :flex;
+            flex-direction :row;
+            flex :1;
+            border :0.5px solid black;
+        }
+            .main_goods_img{
+                flex :0.7;
+                border-right :0.5px solid black;
+            }
+            .main_goods_detail{
+                flex :1;
+                font-size :1.1em;
+                background-color :rgb(247, 247, 247);
+            }
+
+
+
+
+
+
+    #menu1_row2{   /*아직 안정함*/
+        flex :1;
+    }
+       
+
+
+
+#menu2{
+    display :flex;
+    flex:1;
+    flex-direction :row;
+}
+    #menu2_row1{   /*인기순위*/
+        
+    }
+    #menu2_row2{   /*아직 안정함*/
+        
+    }

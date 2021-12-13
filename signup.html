@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang = "ko">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>내만내산-회원가입</title>
+
+        <link rel = "stylesheet" href = "font.css"/>
+        <link rel = "stylesheet" href = "main_normalize.css"/>
+        <link rel = "stylesheet" href = "signup.css"/>
+        
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/a541f05f20.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!--가로 제한하는 전체 틀-->
+        <div class = "box">
+
+            <!--container-->
+            <div class = "container">
+
+                <!--header : 로고 / 로그인, 장바구니, DM-->
+                <div class = "header">
+
+                    <!--row1 : 로고-->
+                    <div class = "header_row1">
+                        <a class = "logo" id = "font_Ephesis" href = "main.html">NMNS</a>
+                    </div>
+
+                    <!--row2 : 로그인, 장바구니, DM-->
+                    <div class= "header_row2">
+                        <button id = "login_button">로그인</button>
+                        <button id = "basket_button"><i class="fas fa-shopping-cart" style = "margin-right :2px; margin-top :2px;"></i></button>
+                        <button id = "DM_button"><i class="fas fa-user"></i></button>
+                    </div>
+                </div>
+
+
+                <!--category : 액세서리 / 그림 / 영상 / 가구 / 컴퓨터 / 번역-->
+                <div class = "category">
+                    <span id = "categorycolor">
+                        <div id = "category_row1" class = "category_row">
+                            액세서리  
+                        </div>
+                        <div id = "category_row2" class = "category_row">
+                            그림
+                        </div>
+                        <div id = "category_row3" class = "category_row">
+                            영상
+                        </div>
+                        <div id = "category_row4" class = "category_row">
+                            가구
+                        </div>
+                        <div id = "category_row5" class = "category_row">
+                            컴퓨터
+                        </div>
+                        <div id = "category_row6" class = "category_row">
+                            번역
+                        </div> 
+                    </span>
+                </div>
+
+
+                <!--category_drop : category의 세부사항-->
+                <div class = "categorydrop" id = "categorydrop">
+                    <span id = "categorydropcolor">
+                        <div id = "categorydrop_row1" class = "categorydrop_row">
+                            <!--자바스크립트로 통합해야함.-->
+                            <a id = "categorydrop__earing1">귀걸이</a>
+                            <a >목걸이</a>
+                            <a>반지/팔찌</a>
+                            <a>폰케이스/그립톡</a>
+                            <a>키링</a>
+                            <a id = "categorydrop__earing6">기타</a>
+                        </div>
+                        <div id = "categorydrop_row2" class = "categorydrop_row">
+                            <a id = "categorydrop__picture1">일러스트</a>
+                            <a>SD</a>
+                            <a>LD</a>
+                            <a>만화</a>
+                        </div>
+                        <div id = "categorydrop_row3" class = "categorydrop_row">
+                            <a id = "categorydrop__video1">광고</a>
+                            <a>소개영상</a>
+                        </div>
+                        <div id = "categorydrop_row4" class = "categorydrop_row">
+                            <a id = "categorydrop__furniture1">무드등</a>
+                            <a>액자</a>
+                            <a>썬/드림캐쳐</a>
+                        </div>
+                        <div id = "categorydrop_row5" class = "categorydrop_row">
+                            <a id = "categorydrop__computer1">웹 프로그래밍</a>
+                            <a>앱 프로그래밍</a>
+                            <a>테스팅</a>
+                            <a>사무보조</a>
+                        </div>
+                        <div id = "categorydrop_row6" class = "categorydrop_row">
+                            <a id = "categorydrop__translate1">영어</a>
+                            <a>일본어</a>
+                            <a>중국어</a>
+                        </div> 
+                    </span>
+                </div>
+
+                <br/><br/><br/>
+<!--=============================고정=============================-->
+
+                <div class= "signup_container">
+                    <div class= "signup_name">
+                        <div class= "signup_name_q" id= "signup_center"><b>이름</b></div>
+                        <div class= "signup_name_a">
+                            <input type="text" id= "signup_input"> 
+                        </div>
+                    </div>
+                    <div class= "signup_ID">
+                        <div class= "signup_ID_q" id= "signup_center"><b>아이디</b></div>
+                        <div class= "signup_ID_a">
+                            <input type="text" id= "signup_input"> 
+                            <button id = "signup_ID_check">중복확인</button>
+                        </div>
+                    </div>
+                    <div class= "signup_password">
+                        <div class= "signup_password_q" id= "signup_center"><b>비밀번호</b></div>
+                        <div class= "signup_password_a">
+                            <input type="password" id= "signup_input"> 
+                        </div>
+                    </div>
+                    <div class= "signup_email">
+                        <div class= "signup_email_q" id= "signup_center"><b>이메일</b></div>
+                        <div class= "signup_email_a">
+                            <input type="text" id= "signup_input">
+                            @
+                            <input type="text" id= "signup_input">
+                        </div>
+                    </div>
+                    <div class= "signup_birthday">
+                        <div class= "signup_birthday_q"id= "signup_center"><b>생년월일</b></div>
+                        <div class= "signup_birthday_a">
+                            <input type="date" id= "signup_input">
+                        
+                            
+                        </div>
+                    </div>
+                    <div class= "signup_gender">
+                        <div class= "signup_gender_q"id= "signup_center"><b>성별</b></div>
+                        <div class= "signup_gender_a">
+                            <input type="checkbox">남성
+                            <input type="checkbox">여성
+                        </div>
+                    </div>
+                    <div class= "signup_phone_number">
+                        <div class= "signup_phone_number_q"id= "signup_center"><b>연락처</b></div>
+                        <div class= "signup_phone_number_a">
+                            <input type="text" id= "signup_input">
+                            <label for="signup_first_box">-</label>
+                            <input type="text" id= "signup_input">
+                            <label for="signup_second_box">-</label>
+                            <input type="text" id= "signup_input">
+                        </div>
+                    </div>
+                    <div class= "signup_address">
+                        <div class= "signup_address_q"id= "signup_center"><b>배송지</b></div>
+                        <div class= "signup_address_a">
+                            <input type="text" id= "signup_input"> <br />
+                            <input type="text" id= "signup_input"> <br />
+                            <input type="text" id= "signup_input"> <br />
+                        </div>
+                    </div>
+                    <div class = "signup_submit">
+                        <button id = "signup_submit_btn">제출하기</button>
+                    </div>
+                </div>
+                
+
+<!--=============================고정=============================-->
+                <!--tailer : 공지사항, 고객센터-->
+                <div class = "tailer">
+                    <hr />
+                    <span>공지사항 · 고객센터</span>
+                </div>
+
+
+
+            </div>
+        </div>
+        <script src = "main_header_normalize.js"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>
